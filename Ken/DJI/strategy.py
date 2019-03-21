@@ -92,6 +92,7 @@ class Attack(Strategy):
 class Manual(Strategy):
 
     def __init__(self, controls):
+        controls = controls.lower()
         self.controls = controls
         self.left = controls[0]
         self.down = controls[1]

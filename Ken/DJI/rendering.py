@@ -143,7 +143,8 @@ class Viewer(object):
         return arr[::-1,:,0:3]
 
     def __del__(self):
-        self.close()
+        pass
+        #self.close()
 
 def _add_attrs(geom, attrs):
     if "color" in attrs:
