@@ -25,3 +25,7 @@ To run the simulation, execute the python script `.../DJI/robot_play.py`. For no
 
 
 Updated 1/19/2019
+
+Note:
+
+https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
